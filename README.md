@@ -2,7 +2,8 @@
 Comparison between C, Haskell and Prolog implementations of quicksort
 
 # Compiling
-gcc -o permutation permutation.c 
+gcc -o permutation permutation.c
+
 gcc -o quick quicksort.c
 
 # Instructions
@@ -16,10 +17,13 @@ gcc -o quick quicksort.c
 ![plot](newplot.png)
 
 Analitic result:
-Language|5|6|7|8|9|
------|------|-------|---------|---------|---------|
-C	| 0.000000 s	| 0.000000 s	| 0.015000 s	| 0.062000 s |	0.453000 s|
-Prolog	| 0.000000 s |	0.015000 s |	0.160000 s |	2.468000 s |	30708* s|
-Haskell	| 0.0000000 s	| 0.0157007 s |	0.0243243 s	| 0.0306376 s	| 0.0307905 s|
+
+Execution time for different amounts of elements
+
+| Language | 5 | 6 | 7 | 8 | 9 |
+|-----------|-----------|-----------|-----------|-----------|-----------|
+|C	| 0,000000 s	| 0,000000 s	| 0,015000 s	| 0,062000 s |	0,453000 s|
+|Prolog	| 0,000000 s |	0,015000 s |	0,160000 s |	2,468000 s |	30,708* s|
+|Haskell	| 0,0000000 s	| 0,015701 s |	0,024324 s	| 0,030638 s	| 0,030791 s|
 
   
