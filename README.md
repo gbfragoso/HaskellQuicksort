@@ -1,5 +1,5 @@
 # HaskellQuicksort
-Comparison between C, Haskell and Prolog implementations of quicksort
+This projet aims to compare execution time of quicksort algorithm between C, Haskell and Prolog implementations.
 
 # Compiling
 gcc -o permutation permutation.c
@@ -18,7 +18,7 @@ gcc -o quick quicksort.c
 
 Analitic result:
 
-Execution time for different amounts of elements
+Execution time for different amounts of elements in array
 
 | Language | 5 | 6 | 7 | 8 | 9 |
 |-----------|-----------|-----------|-----------|-----------|-----------|
