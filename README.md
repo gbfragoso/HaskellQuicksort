@@ -9,9 +9,9 @@ gcc -o quick quicksort.c
 # Instructions
 1.  Define the array size at permutation.c (line 4) and then run the permutation.c (./permutation);
 2.  Run:
-  1. C: Change input file (line 14) and then run quicksort.c (./quick);
+  1. C: run quicksortN.c (./quick);
   2. Prolog: Open quicksortN.pl and query the clause "check" (N = Base array size).
-  3. Haskell: Change the input file (line 14) and then run function "main".
+  3. Haskell: Open quicksortN.hs and then run function "main".
 
 # Results
 ![plot](newplot.png)
