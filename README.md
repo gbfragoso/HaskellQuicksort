@@ -4,14 +4,14 @@ This projet aims to compare execution time of quicksort algorithm between C, Has
 # Compiling
 gcc -o permutation permutation.c
 
-gcc -o quick quicksort.c
+gcc -o quick quicksortN.c (N = array size)
 
 # Instructions
 1.  Define the array size at permutation.c (line 4) and then run the permutation.c (./permutation);
 2.  Run:
-  1. C: run quicksortN.c (./quick);
-  2. Prolog: Open quicksortN.pl and query the clause "check" (N = Base array size).
-  3. Haskell: Open quicksortN.hs and then run function "main".
+  1. C: Compile quicksortN.c and run ./quick; (N = array size)
+  2. Prolog: Open quicksortN.pl and query the clause "check" (N = array size);
+  3. Haskell: Open quicksortN.hs and then run function "main" (N = array size).
 
 # Results
 ![plot](Quicksort Algorithm execution time between programming languages.png)
