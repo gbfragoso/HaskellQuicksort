@@ -14,7 +14,7 @@ gcc -o quick quicksort.c
   3. Haskell: Open quicksortN.hs and then run function "main".
 
 # Results
-![plot](newplot.png)
+![plot](Quicksort Algorithm execution time between programming languages.png)
 
 Analitic result:
 
